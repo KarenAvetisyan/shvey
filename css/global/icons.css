@@ -1,0 +1,213 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../font/icons/icomoon.eot?9qn5i2');
+  src:  url('../../font/icons/icomoon.eot?9qn5i2#iefix') format('embedded-opentype'),
+    url('../../font/icons/icomoon.ttf?9qn5i2') format('truetype'),
+    url('../../font/icons/icomoon.woff?9qn5i2') format('woff'),
+    url('../../font/icons/icomoon.svg?9qn5i2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-msh-obuchenie{
+  font-size: 15px;
+}
+.icon-msh-obuchenie:before {
+  font-size: 15px;
+  content: "\e926";
+}
+.icon-collections:before {
+  content: "\e927";
+  color: #ff5722;
+}
+.icon-msh-brands{
+  font-size: 17px;
+}
+.icon-msh-brands:before {
+  font-size: 17px;
+  content: "\e928";
+}
+.icon-msh-help{
+  font-size: 17px;
+}
+.icon-msh-help:before {
+  font-size: 17px;
+  content: "\e929";
+}
+.icon-tel-stroked:before {
+  content: "\e900";
+}
+.icon-msh-servisnoe{
+  font-size: 15px;
+}
+.icon-msh-servisnoe:before {
+  font-size: 15px;
+  content: "\e901";
+}
+.icon-quest:before {
+  content: "\e902";
+}
+.icon-msh-rukav{
+  font-size: 21px;
+}
+.icon-msh-rukav:before {
+  font-size: 21px;
+  content: "\e903";
+}
+.icon-msh-overloc{
+  font-size: 21px;
+}
+.icon-msh-overloc:before {
+  font-size: 21px;
+  content: "\e904";
+}
+.icon-koverlock:before {
+  content: "\e905";
+}
+.icon-arr-right-oval:before {
+  content: "\e906";
+  color: #00adb5;
+}
+.icon-msh-vish{
+  font-size: 21px;
+}
+.icon-msh-vish:before {
+  font-size: 21px;
+  content: "\e907";
+}
+.icon-koverlock-piruz:before {
+  content: "\e908";
+  color: #00adb5;
+}
+.icon-cut:before {
+  content: "\e909";
+  color: #00adb5;
+}
+.icon-msh-prom{
+  font-size: 21px;
+}
+.icon-msh-prom:before {
+  font-size: 21px;
+  content: "\e90a";
+}
+.icon-exc:before {
+  content: "\e90b";
+  color: #ff5722;
+}
+.icon-date:before {
+  content: "\e90c";
+}
+.icon-mail:before {
+  content: "\e90d";
+}
+.icon-tg2:before {
+  content: "\e90e";
+  color: #ff5722;
+}
+.icon-time:before {
+  content: "\e90f";
+  color: #00adb5;
+}
+.icon-thumb:before {
+  content: "\e910";
+  color: #00adb5;
+}
+.icon-security2:before {
+  content: "\e911";
+  color: #00adb5;
+}
+.icon-sets:before {
+  content: "\e912";
+  color: #00adb5;
+}
+.icon-sandtime:before {
+  content: "\e913";
+  color: #00adb5;
+}
+.icon-smile:before {
+  content: "\e914";
+  color: #00adb5;
+}
+.icon-fire:before {
+  content: "\e915";
+  color: #00adb5;
+}
+.icon-home:before {
+  content: "\e916";
+  color: #00adb5;
+}
+.icon-play:before {
+  content: "\e917";
+  color: #fff;
+}
+.icon-caret-right:before {
+  content: "\e918";
+}
+.icon-arr-right:before {
+  content: "\e919";
+  color: #fff;
+}
+.icon-security:before {
+  content: "\e91a";
+}
+.icon-master:before {
+  content: "\e91b";
+}
+.icon-build:before {
+  content: "\e91c";
+}
+.icon-diag:before {
+  content: "\e91d";
+}
+.icon-metro:before {
+  content: "\e91e";
+}
+.icon-tel:before {
+  content: "\e91f";
+  color: #fff;
+}
+.icon-stock:before {
+  content: "\e920";
+}
+.icon-caret:before {
+  content: "\e921";
+}
+.icon-cursor:before {
+  content: "\e922";
+}
+.icon-tg{
+  font-size: 14px;
+}
+.icon-tg:before {
+  font-size: 14px;
+  content: "\e923";
+  color: #27a7e7;
+}
+.icon-vk{
+  font-size: 15px;
+}
+.icon-vk:before {
+  font-size: 15px;
+  content: "\e924";
+  color: #4d7198;
+}
+.icon-ws:before {
+  content: "\e925";
+  color: #28d146;
+}
