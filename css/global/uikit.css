@@ -856,6 +856,7 @@ h2, ._h2 {
     font-weight: 600;
     font-size: 16px;
     line-height: 130%;
+    color: var(--txt-color);
 }
 ._form-group__input {
   width: 100%;
@@ -902,13 +903,13 @@ h2, ._h2 {
 ._form-group textarea:not(:placeholder-shown){
   border-color: var(--piruz);
 }
-._form-group.req_error ._form-group__input {
-    border-color: rgba(195, 44, 3, 0.901);
-}
 ._form-group.req_error .req__text {
     display: block;
 }
-._form-group.error_error ._form-group__input {
+._form-group.req_error ._form-group__input,
+._form-group.req_error textarea,
+._form-group.error_error ._form-group__input,
+._form-group.error_error textarea {
     border-color: rgba(195, 44, 3, 0.901);
 }
 ._form-group.error_error .error__text {
@@ -1072,12 +1073,11 @@ h2, ._h2 {
 ._modal{
   max-width: 890px;
   width: 100%;
-  border: solid 5px #fff;
-  background-color: #F8F8F8!important;
 }
 ._modal .is-close-button{
   width: 50px;
   height: 50px;
+  top: -23px!important;
   right: -23px!important;
   border-radius: 100%;
   background-color: #fff;
@@ -1087,9 +1087,21 @@ h2, ._h2 {
   justify-content: center;
   color: #000;
 }
+._modal .is-close-button:hover{
+  color: #fff;
+  background-color: var(--red)!important;
+}
 ._modal .f-button svg{
   stroke-width: 4px!important;
 }
 .fancybox__dialog ._modal *:empty{
   display: inherit;
+}
+@media (max-width: 991px) {
+  ._modal .is-close-button{
+    width: 38px;
+    height: 38px;
+    top: -15px !important;
+    right: -8px !important;
+  }
 }

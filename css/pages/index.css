@@ -1633,6 +1633,11 @@ background-image: url('data:image/svg+xml,<svg width="14" height="2" viewBox="0 
     width: 100%;
   }
 }
+@media (max-width: 490px) {
+  .regions-list a{
+    word-break: break-all;
+  }
+}
 
 /* Ремонт швейных машинок на дому  */
 .visit-img__wrap{
