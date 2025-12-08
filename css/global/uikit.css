@@ -1105,3 +1105,53 @@ h2, ._h2 {
     right: -8px !important;
   }
 }
+
+/* breadcrumbs */
+._breadcrumbs{
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%;
+  color: #909090;
+  margin-bottom: 24px;
+  padding-top: 32px;
+  margin-bottom: 0;
+}
+._breadcrumbs li{
+  display: inline-block;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 130%;
+  color: #3C3C3C;
+  background-color: #fff;
+  border-radius: 30px;
+  margin-right: 23px;
+}
+._breadcrumbs li.active{
+  color: var(--red);
+  padding: 3px 12px;
+  background-color: rgba(255, 86, 34, 0.154);
+  font-weight: 500;
+}
+._breadcrumbs a{
+  color: #3C3C3C;
+  padding: 3px 12px;
+  display: inline-block;
+  position: relative;
+}
+._breadcrumbs a:before{
+  content: "/";
+  position: absolute;
+  top: 0;
+  right: -18px;
+  pointer-events: none;
+  bottom: 0;
+  margin: auto;
+  color: #3C3C3C;
+  display: flex;
+  align-items: center;
+}
+._breadcrumbs a:hover{
+  color: var(--piruz);
+}
