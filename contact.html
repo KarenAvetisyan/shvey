@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <title>Швейный лекарь - Ремонт швейных машин в Москве</title>
+    <title>Швейный лекарь - Контакты</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Put your description here.">
@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="css/global/icons.css"><!-- нужен ВЕЗДЕ, иконки  -->
     <link rel="preload" href="css/global/grid.css" as="style" onload="this.rel='stylesheet'"><!-- нужен ВЕЗДЕ, Сетка  -->
     <link rel="preload" href="css/global/uikit.css" as="style" onload="this.rel='stylesheet'"><!-- нужен ВЕЗДЕ, Компоненты и глобальные стили -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" as="style" onload="this.rel='stylesheet'"><!-- нужен ТАМ ГДЕ ЕСТЬ СЛАЙДЕР -->
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css" as="style" onload="this.rel='stylesheet'"><!-- нужен ВЕЗДЕ (Попапы, зум картинки...) -->
     <link rel="stylesheet" href="css/main.css"><!-- нужен ВЕЗДЕ (Стили header, footer, блоков которые могут быть везде по сайту )  -->
-    <link rel="stylesheet" href="css/pages/model-mashini.css"><!-- нужен ТОЛЬКО для данной страницы  -->
-    <link fetchpriority="high" rel="preload" href="img/models/astralux.webp" as="image"><!-- Быстрая загрузка первого большого изображения -->
+    <link rel="stylesheet" href="css/pages/contact.css"><!-- нужен ТОЛЬКО для данной страницы  -->
 </head>
 <body>
 
@@ -258,140 +258,167 @@
     </header>
 
     <main>
-    
-    <div class="_container">
-        <ul class="_breadcrumbs">
-            <li><a href="#">Ремонт швейных машин</a></li>
-            <li class="active">Ремонт швейных машин Астралюкс</li>
-        </ul>
-    </div>
-    <!-- баннер  -->
-    <section class="sc-banner _mb">
+
         <div class="_container">
-            
-            <div class="banner-wrap">
-                <div class="banner-info__wrap">
-                    <div class="banner-info">
-                        <h1 data-inviewport="obs__moveTop" data-delay="0.3s">Ремонт швейных машин <span class="_c-piruz">Astralux</span></h1>
-                        <div class="banner-plus__wrap">
-                            <div class="banner-plus__item" data-inviewport="obs__moveBottom" data-delay="0.3s">
-                                <i class="icon icon-security"></i>
-                                <div class="banner-plus__item-title">Гарантия на ремонт до 12 месяцев</div>
-                                <p>На все виды ремонта швейных машин</p>
+            <ul class="_breadcrumbs">
+                <li><a href="#">Ремонт швейных машин</a></li>
+                <li class="active">Контакты</li>
+            </ul>
+        </div>
+
+        <section class="sc-contact _py">
+            <div class="_container">
+                <div class="_row">
+                    <div class="_cl-l-8">
+                        <div class="_title-wrap" data-inviewport="obs__moveBottom">
+                            <h1><span class="_c-piruz">Швейный лекарь</span><br>
+                                Контакты и адреса
+                            </h1>
+                            <p class="_title-subtxt">Оборудование можно привезти в наш сервисный центр или вызвать мастера на дом или офис.</p>
+                            <p class="_title-subtxt _pb-sm-0">Напоминаем, что наши мастера работают во всех районах Москвы.<br> Выезд мастера на дом в пределах МКАД-<span class="_semibold">бесплатный!</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="_row _row-gap">
+                    <div class="_cl-l-6">
+                        <div class="contact-wrap" data-inviewport="obs__moveBottom">
+                            <div class="contact-item">
+                                <p class="contact-item__label _bold">Адрес сервисного центра:</p>
+                                <div class="contact-item__wrap">
+                                    <i class="icon icon-cursor"></i>
+                                    <p>г. Москва, Хвалынский бульвар, 7/11к1</p>
+                                </div>
                             </div>
-                            <div class="banner-plus__item" data-inviewport="obs__moveBottom" data-delay="0.40s">
-                                <i class="icon icon-master" ></i>
-                                <div class="banner-plus__item-title">Бесплатный выезд мастера*</div>
-                                <p>Выезд мастера для диагностики – бесплатно!</p>
+                            <div class="contact-item">
+                                <p class="contact-item__label _bold">График работы сервисного центра:</p>
+                                <div class="contact-item__wrap">
+                                    <i class="icon icon-date"></i>
+                                    <p>
+                                        <span>Пн-Пт, с 12.00 до 20.00</span>
+                                        <span>Сб, с 12.00 до 17.00</span>
+                                        <span>Вс - выходной</span>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="banner-plus__item" data-inviewport="obs__moveBottom" data-delay="0.50s">
-                                <i class="icon icon-build" ></i>
-                                <div class="banner-plus__item-title">Свой сервисный центр в Москве</div>
-                                <p>Ваша швейная машина в надежных руках</p>
+                            <div class="contact-item">
+                                <p class="contact-item__label _bold">Телефон:</p>
+                                <div class="contact-item__wrap">
+                                    <i class="icon icon-tel-stroked"></i>
+                                    <p>Пн-Вс, с 08.00 до 22.00</p>
+                                </div>
                             </div>
-                            <div class="banner-plus__item" data-inviewport="obs__moveBottom" data-delay="0.55s">
-                                <i class="icon icon-stock" ></i>
-                                <div class="banner-plus__item-title">Скидки для льготных категорий</div>
-                                <p>Качественный ремонт с экономией</p>
+                            <div class="contact-item">
+                                <p class="contact-item__label _bold">Прием заявок:</p>
+                                <div class="contact-item__wrap">
+                                    <i class="icon icon-time"></i>
+                                    <p>Пн-Вс, с 08.00 до 22.00</p>
+                                </div>
                             </div>
-                            <div class="banner-plus__item" data-inviewport="obs__moveBottom" data-delay="0.60s">
-                                <i class="icon icon-diag" ></i>
-                                <div class="banner-plus__item-title">Бесплатная диагностика</div>
-                                <p>Узнайте причину поломки без оплаты</p>
+                            <div class="contact-item">
+                                <p class="contact-item__label _bold">Email:</p>
+                                <div class="contact-item__wrap">
+                                    <i class="icon icon-mail"></i>
+                                    <p><a href="mailto:mail@remont-shveinikh-mashin.ru">mail@remont-shveinikh-mashin.ru</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="_cl-l-6">
+                        <div class="contact-wrap _flex" data-inviewport="obs__moveBottom">
+                            <div class="contact-wrap__top">
+                                <div class="contact-item__socials">
+                                    <a href="#" class="_socialBtn _w-100 watched is-inViewport" data-inviewport="obs__bounce"><i class="icon icon-ws"></i>Напишите нам в WhatsApp</a>
+                                    <a href="#" class="_socialBtn _w-100 watched is-inViewport" data-inviewport="obs__bounce"><i class="icon icon-tg2"></i>Напишите нам в Telegram</a>
+                                </div>
+                            </div>
+                            <div class="contact-wrap__bottom">
+                                <p class="contact-item__label _bold">Информация о нас:</p>
+                                <ul>
+                                    <li>ИП Мельничук Н.В.</li>
+                                    <li>ИНН 231406709669</li>
+                                    <li>ОГРНИП 321508100589835</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="banner-img" data-inviewport="obs__moveTop" data-delay="0.3s">
-                <picture>
-                    <source srcset="img/models/astralux.webp" type="image/webp">
-                    <img src="img/models/astralux.webp" alt="astralux">
-                </picture>
-            </div>
-            <div class="banner-bottom__wrap">
-                <div class="banner-consult__wrap">
-                    <div class="banner-consult__master" data-inviewport="obs__bounce" data-delay="0.60s">
-                        <img src="img/master.webp" alt="master">
-                    </div>
-                    <div class="banner-consult__content" data-inviewport="obs__moveBottom" data-delay="0.60s">
-                        <div class="banner-consult__title">Консультация и вызов мастера:</div>
-                        <div class="banner-consult__txt">Точная диагностика, честные рекомендации и вызов мастера без лишних ожиданий</div>
-                    </div>
-                </div>
-                <div class="banner-call__wrap">
-                    <a href="#" class="banner-call__btn _piruzBtn" data-fancybox="" data-src="#_zayavka" data-inviewport="obs__moveTop" data-delay="0.40s"><span>Вызвать мастера<i class="icon icon-arr-right"></i></span></a>
-                    <a href="tel:+74952900312" class="banner-call__btn _outlineBtn _regular" data-inviewport="obs__moveTop" data-delay="0.45s"><span>+7 (495) 290-03-12</span></a>
-                </div>
-            </div>
-        </div>
-        <a href="#models" class="banner-next__sc-btn js-scrollTo" data-inviewport="obs__moveBottom" data-delay="0.60s"><i class="icon icon-arr-right"></i>Далее</a>
-    </section>
-    <!-- бренды  -->
-    <section class="sc-models _py" id="models">
-        <div class="_container">
-            <div class="_title-wrap" data-inviewport="obs__moveBottom">
-                <h2>Ремонтируем <span class="_c-piruz">все модели</span> швейных машин Астралюкс, в том числе:</h2>
-            </div>
-            <div class="models-wrap">
-                <a href="#" class="model-item" data-inviewport="obs__bounce">
-                    Astralux Air Sew
-                </a>
-                <a href="#" class="model-item" data-inviewport="obs__bounce">
-                    Astralux Cover Pro
-                </a>
-                <a href="#" class="model-item" data-inviewport="obs__bounce">
-                    Astralux DC
-                </a>
-                <a href="#" class="model-item" data-inviewport="obs__bounce">
-                    Astralux Foxy
-                </a>
-                <a href="#" class="model-item" data-inviewport="obs__bounce">
-                    Astralux Happy Sew
-                </a>
-                <a href="#" class="model-item" data-inviewport="obs__bounce">
-                    Astralux Q
-                </a>
-                <a href="#" class="model-item" data-inviewport="obs__bounce">
-                    Astralux Multicolor
-                </a>
-                <a href="#" class="model-item" data-inviewport="obs__bounce">
-                    Astralux Paris
-                </a>
-                <a href="#" class="model-item" data-inviewport="obs__bounce">
-                    Astralux Over Pro
-                </a>
-                <a href="#" class="model-item" data-inviewport="obs__bounce">
-                    Astralux Rose Line
-                </a>
-                <a href="#" class="model-item" data-inviewport="obs__bounce">
-                    Astralux R
-                </a>
-                <a href="#" class="model-item" data-inviewport="obs__bounce">
-                    Astralux SE
-                </a>
-                <a href="#" class="model-item" data-inviewport="obs__bounce">
-                    Astralux Sensation
-                </a>
-                <a href="#" class="model-item" data-inviewport="obs__bounce">
-                    Astralux SR
-                </a>
-                <a href="#" class="model-item" data-inviewport="obs__bounce">
-                    Astralux Starlet
-                </a>
-                <a href="#" class="model-item" data-inviewport="obs__bounce">
-                    Astralux Styling
-                </a>
-                <a href="#" class="model-item" data-inviewport="obs__bounce">
-                    Astralux Sky Sew
-                </a>
-                <a href="#" class="model-item" data-inviewport="obs__bounce">
-                    Astralux XP
-                </a>
-            </div>
-        </div>
-    </section>
+        </section>
 
+        <section class="sc-contactAddress _py">
+            <div class="_container">
+                <div class="_title-wrap" data-inviewport="obs__moveBottom">
+                    <h2>Адрес мастерской на карте</h2>
+                    <p class="_title-subtitle _pb-sm-0">Местоположение сервисного центра</p>
+                </div>
+                <div class="_row _row-gap">
+                    <div class="_cl-x-7 _cl-l-6">
+                        <div class="contactAddress-center _contact-frame" data-inviewport="obs__moveBottom">
+                            <img loading="lazy" src="img/contact-center.webp" alt="img">
+                        </div>
+                    </div>
+                    <div class="_cl-x-5 _cl-l-6">
+                        <div class="contactAddress-map" data-inviewport="obs__moveBottom">
+                            <img loading="lazy" src="img/bgmap.webp" alt="map">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sc-contactMasters _py">
+            <div class="_container">
+                <div class="_title-wrap" data-inviewport="obs__moveBottom">
+                    <h2>Мастера и регион обслуживания</h2>
+                    <p class="_title-subtitle _pb-sm-0">Территория работы и команда специалистов</p>
+                </div>
+                <div class="contactMasters-map _contact-frame">
+                    <img loading="lazy" src="img/bgmap.webp" alt="map">
+                </div>
+            </div>
+        </section>
+        
+        <section class="sc-findOut _py">
+            <div class="_container">
+                <div class="_row">
+                    <div class="_cl-x-5">
+                        <div class="findOut-img__wrap" data-inviewport="obs__full-width">
+                            <img class="findOut-img _d-mn-x" loading="lazy" src="img/sew-attributes.webp" alt="img">
+                            <img class="findOut-img _d-mx-x" loading="lazy" src="img/sew-attributes-mob.webp" alt="img">
+                        </div>
+                    </div>
+                    <div class="_cl-x-7" data-inviewport="obs__moveBottom">
+                        <form class="_form" action="" method="POST" autocomplete="off">
+                            <img class="sc-bg" loading="lazy" src="img/custombg.webp" alt="bg">
+                            <div class="_title-wrap">
+                                <h2>Узнайте точную<br class="_d-mn-x"> стоимость ремонта</h2>
+                                <p class="_form-subtitle _pb-sm-0">Оставьте онлайн заявку:</p>
+                            </div>
+                            <div class="_form-group">
+                                <input type="text" name="name" class="_form-group__input" placeholder="Ваше имя">
+                            </div>
+                            <div class="_form-group">
+                                <input type="tel" name="phone" class="_phone phone-mask _req _form-group__input" placeholder="Ваш телефон">
+                                <div class="req__text">Обязательное поле</div>
+                                <div class="error__text">Пожалуйста, укажите корректный номер телефона</div>
+                            </div>
+                            <div class="_form-group">
+                                <textarea name="message" class="_req" placeholder="Описание проблемы"></textarea>
+                                <div class="req__text">Обязательное поле</div>
+                            </div>
+                            <div class="_form-group__agree">
+                                <label class="_form-group _form-group__agree-label">
+                                    <input class="_form-group__agree-input _req" type="checkbox" checked>
+                                    <p>Я&nbsp;даю&nbsp;согласие на&nbsp;обработку <a href="#">персональных данных</a></p>
+                                </label>
+                            </div>
+                            <button type="submit" class="_form-submit _piruzBtn"><span>Оставить заявку<i class="icon icon-arr-right"></i></span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
     </main>
 
     <!-- footer  -->

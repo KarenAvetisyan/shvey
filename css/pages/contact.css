@@ -1,0 +1,283 @@
+h1, ._h1{
+    font-size: 70px;
+}
+@media (max-width: 1199px) {
+    h1, ._h1{
+        font-size: 60px;
+    }
+}
+@media (max-width: 767px) {
+    h1, ._h1{
+        font-size: 37px;
+    }
+}
+.contact-wrap{
+    padding: 60px 32px;
+    border-radius: 16px;
+    background-color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    flex-wrap: wrap;
+}
+.contact-wrap:before,
+.contact-wrap::after{
+    content: "";
+    position: absolute;
+    width: calc(100% - 64px);
+    height: 1px;    
+    background-image: linear-gradient(to right, #D4D4D4 70%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 10px 1px;
+    background-repeat: repeat-x;
+}
+.contact-wrap:before{
+    top: 28px;
+}
+.contact-wrap::after{
+    bottom: 28px;
+}
+.contact-wrap._flex{
+    display: flex;
+}
+.contact-wrap__top,
+.contact-wrap__bottom{
+    width: 100%;
+}
+.contact-wrap__bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px 0;
+}
+.contact-line{
+    display: flex;
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to right, #D4D4D4 70%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 10px 1px;
+    background-repeat: repeat-x;
+}
+.contact-line._top{
+    margin-bottom: 32px;
+}
+.contact-line._bottom{
+    margin-top: 32px;
+}
+.contact-line._mt-auto{
+    margin-top: auto;
+}
+.contact-item{
+    margin-bottom: 28px;
+}
+.contact-item:first-of-type{
+    margin-top: 0;
+}
+.contact-item:last-of-type{
+    margin-bottom: 0;
+}
+.contact-item__label{
+    text-transform: uppercase;
+}
+.contact-item__wrap{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+.contact-item__wrap p{
+    margin-bottom: 0;
+}
+.contact-item__wrap p span{
+    position: relative;
+    display: inline-block;
+}
+.contact-item__wrap p span::after{
+   content: "";
+    position: relative;
+    height: 18px;
+    width: 1px;
+    background-image: linear-gradient(to top, #909090 70%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 1px 6px;
+    background-repeat: repeat-y;
+    display: inline-block;
+    margin: 0px 7px 0px 12px;
+    top: 3px;
+}
+.contact-item__wrap p span:last-of-type::after{
+    display: none;
+}
+.contact-item__wrap .icon{
+    margin-top: 2px;
+}
+.contact-item__wrap .icon:before{
+    color: var(--piruz);
+}
+.contact-item__wrap a{
+    color: var(--txt-color);
+}
+.contact-item__socials{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.contact-item__socials::after {
+    content: "";
+    margin-top: 13px;
+    width: 100%;
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    background-image: linear-gradient(to right, #D4D4D4 70%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 10px 1px;
+    background-repeat: repeat-x;
+}
+.contact-wrap li{
+    margin-top: 12px;
+}
+@media (max-width: 1199px) {
+    .contact-wrap{
+        padding: 56px 24px;
+    }
+    .contact-wrap:before, .contact-wrap::after{
+        width: calc(100% - 48px);
+        left: 24px;
+    }
+    .contact-wrap:before{
+        top: 24px;
+    }
+    .contact-wrap::after{
+        bottom: 24px;
+    }
+}
+@media (max-width: 767px) {
+    .contact-wrap{
+        padding: 40px 16px;
+    }
+    .contact-item__socials::after{
+        display: none;
+    }
+    .contact-wrap:before, .contact-wrap::after{
+        width: calc(100% - 32px);
+        left: 16px;
+    }
+    .contact-wrap:before{
+        top: 16px;
+    }
+    .contact-wrap::after{
+        bottom: 16px;
+    }
+    .contact-wrap__bottom{
+        padding-bottom: 0;
+    }
+    .contact-item__socials ._socialBtn {
+        padding: 22px 22px;
+    }
+}
+
+._contact-frame{
+   padding: 24px 32px;
+    border: solid 1px #D9D9D9;
+    border-radius: 12px;
+}
+.contactAddress-center img{
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+}
+.contactAddress-map{
+    position: relative;
+    min-height: 268px;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+.contactAddress-map img{
+    position: absolute;
+    border-radius: 12px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media (max-width: 1199px) {
+    ._contact-frame{
+     padding: 16px;
+    }
+}
+@media (max-width: 767px) {
+    ._contact-frame{
+     padding: 8px;
+    }
+}
+
+.contactMasters-map{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.contactMasters-map img{
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 496px;
+    min-height: 252px;
+    object-fit: cover;
+}
+@media (max-width: 767px) {
+    .contactMasters-map img{
+        max-height: 252px;
+        min-height: auto;
+    }
+}
+
+
+/* Узнайте точную стоимость ремонта */
+.sc-findOut ._form{
+  border: 1px solid #D9D9D9;
+  border-radius: 24px;
+  overflow: hidden;
+}
+.findOut-img__wrap{
+  max-width: 502px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  min-height: 140px;
+}
+.findOut-img{
+  border: 1px solid #D9D9D9;
+  box-shadow: 0px 30px 60px rgba(38, 51, 77, 0.05);
+  border-radius: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+@media (max-width: 1199px) {
+  .findOut-img__wrap{
+    max-width: 100%;
+    height: auto;
+    min-height: auto;
+    padding-top: 29%;
+    margin-bottom: 15px;
+  }
+  
+}
+@media (max-width: 767px) {
+  .findOut-img__wrap{
+   padding-top: 39%;
+  }
+  .findOut-img{
+    object-position: top left;
+  }
+}

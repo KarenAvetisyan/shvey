@@ -120,6 +120,10 @@ ul{
   margin-bottom: 0;
   padding-left: 0;
 }
+ol{
+  padding-left: 20px;
+  margin-top: 0;
+}
 
 html {
   font-family: "Raleway", sans-serif;

@@ -329,6 +329,7 @@ h2, ._h2 {
 
 /* social buttons */
 ._socialBtn{
+  display: inline-block;
   padding: 28px 31px;
   background: #FFFFFF;
   border: 1px solid #D4D4D4;
@@ -1024,7 +1025,6 @@ h2, ._h2 {
   margin-bottom: 18px;
   font-weight: 600;
   font-size: 24px;
-  line-height: 130%;
 }
 ._service-btn{
   font-weight: 600;
@@ -1154,4 +1154,67 @@ h2, ._h2 {
 }
 ._breadcrumbs a:hover{
   color: var(--piruz);
+}
+
+/* pagination  */
+._blog-pagination{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+._blog-pagination ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+     color: rgba(70, 70, 70, 0.403);
+}
+._blog-pagination ul li{
+  display: inline-block;
+}
+._blog-pagination .prev,
+._blog-pagination .next{
+  width: 88px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #464646;
+  transition: 0s;
+}
+._blog-pagination .prev:hover,
+._blog-pagination .next:hover{
+  background-color: var(--piruz);
+  border-color: var(--piruz);
+}
+._blog-pagination .prev:hover path,
+._blog-pagination .next:hover path{
+  stroke: #fff;
+}
+._blog-pagination .prev{
+  margin-right: 38px;
+}
+._blog-pagination .next{
+  margin-left: 38px;
+}
+._blog-pagination .page-link{
+    color: #464646;
+    text-decoration: underline;
+}
+._blog-pagination .page-link:hover{
+  color: var(--piruz);
+}
+@media (max-width: 1199px) {
+  ._blog-pagination{
+    justify-content: center;
+  }
+}
+@media (max-width: 767px) {
+  ._blog-pagination ul{
+    width: 100%;
+  }
+  ._blog-pagination .prev,
+  ._blog-pagination .next{
+      width: 48px;
+      height: 48px;
+  } 
 }
