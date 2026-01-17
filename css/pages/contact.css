@@ -176,6 +176,23 @@ h1, ._h1{
     .contact-item__socials ._socialBtn {
         padding: 22px 22px;
     }
+    .contact-item__wrap p span{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .contact-item__wrap p span::after{
+        position: absolute;
+        left: -9px;
+        top: auto;
+        right: auto;
+        bottom: -7px;
+        width: 18px;
+        height: 1px;
+        background-position: bottom;
+        background-size: 5px 3px;
+        background-repeat: repeat-x;
+        background-image: linear-gradient(to left, #909090 70%, rgba(255, 255, 255, 0) 0%);
+    }
 }
 
 ._contact-frame{
