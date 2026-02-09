@@ -1,18 +1,3 @@
-h1, ._h1{
-    font-size: 70px;
-}
-@media (max-width: 1199px) {
-    h1, ._h1{
-        font-size: 60px;
-    }
-}
-@media (max-width: 767px) {
-    h1, ._h1{
-        font-size: 37px;
-    }
-}
-
-
 .feedback-link__wrap{
   display: flex;
   gap: 24px;

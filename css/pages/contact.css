@@ -1,16 +1,3 @@
-h1, ._h1{
-    font-size: 70px;
-}
-@media (max-width: 1199px) {
-    h1, ._h1{
-        font-size: 60px;
-    }
-}
-@media (max-width: 767px) {
-    h1, ._h1{
-        font-size: 37px;
-    }
-}
 .contact-wrap{
     padding: 60px 32px;
     border-radius: 16px;
